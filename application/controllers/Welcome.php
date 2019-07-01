@@ -5,6 +5,8 @@ class Welcome extends CI_Controller {
 
 	public function index()
 	{
+		password_hash("user123", PASSWORD_DEFAULT);
+		dd(password_hash("user123", PASSWORD_DEFAULT));
 		// function get
 		$data = $this->global->get('roles')->result_array();
 		

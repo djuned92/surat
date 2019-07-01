@@ -279,7 +279,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `role_id`, `username`, `password`, `last_login`, `created_at`, `updated_at`) VALUES
 (1, 1, 'admin', '$2y$11$XBYAcNFBwa1e1dvc1zrUdOfBvvA1LQoWWVZNDW2kKyF7kqWU.iezG', '2019-07-01 10:01:24', '2017-12-11 04:57:04', '2019-07-01 15:01:24'),
-(2, 2, 'djuned92', '$2y$11$XBYAcNFBwa1e1dvc1zrUdOfBvvA1LQoWWVZNDW2kKyF7kqWU.iezG', '2019-03-27 11:28:39', '2017-12-24 11:55:52', '2019-03-27 17:28:39');
+(2, 2, 'user', '$2y$10$PLVitkXzShdRrb80edlpPehVM4tu8/2IxmlCHgkyyxTvNuIbxcwdi', '2019-03-27 11:28:39', '2017-12-24 11:55:52', '2019-03-27 17:28:39');
 
 -- --------------------------------------------------------
 
